@@ -10,7 +10,7 @@ wifi.init({
 app.get('/wifi', async (req, res) => {
     try {
         const currentConnection = await wifi.getCurrentConnections();
-        
+        //what
         
         const networks = await wifi.scan();
 
